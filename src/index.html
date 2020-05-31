@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>没什么卵用的地图编辑器</title>
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="mapBlock"></canvas>
+    <div>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <div>
+        <button id="prePage">上一张</button>
+        <button id="createJson">生成json</button>
+        <button id="nextPage">下一张</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .container {
+      display: flex;
+    }
+
+    #canvas {
+      margin-left: 20px;
+      border: 1px solid #000;
+      width: 640px;
+      height: 480px;
+      background: #ccc;
+      /* min-width: 640px;
+      min-height: 480px; */
+    }
+
+    #mapBlock {
+      border: 1px solid;
+      background: #ccc;
+    }
+  </style>
+</body>
+
+</html>
